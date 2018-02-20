@@ -3,10 +3,12 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 2,
+  // Popup file and icon
   "browser_action": {
     "default_popup": "hello.html",
     "default_icon": "controller.png"
   },
+  // Keyboard shortcuts
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
