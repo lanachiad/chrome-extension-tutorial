@@ -7,7 +7,7 @@
 
   "browser_action": {
     "default_icon": "controller.png",
-    "default_popup": "hello.html"
+    "default_popup": "popup.html"
   },
 
   "permissions": ["activeTab", "storage"]
